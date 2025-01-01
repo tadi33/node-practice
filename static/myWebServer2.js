@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     filePath = "/index.html";
   }
 
-  let requestedFile = __dirname + "/appleClone-with-HTML&CSS/" + filePath;
+  let requestedFile = __dirname + "/appleClone-with-HTML-CSS/" + filePath;
 
 
   fs.readFile(requestedFile, (err, content) => {
