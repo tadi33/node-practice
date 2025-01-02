@@ -1,0 +1,35 @@
+*{
+    margin:0;
+}
+img{
+    width:100%;
+}
+.head-foot{
+    background-color: #0C4F70;
+    color: white
+}
+.missing{
+    background-color: #EF4C64;
+    padding: 0px;
+}
+.missing p{
+    font-size:45px;
+}
+h2{
+    font-size: 3rem;
+}
+@media(min-width:992px){
+    .missing{
+        padding: 40px
+    }
+}
+@media(min-width:1200px){
+    .missing{
+        padding: 60px
+    }
+}
+@media(min-width:1400px){
+    .missing{
+        padding: 80px
+    }
+}

@@ -10,13 +10,13 @@ const server = http.createServer((req, res) => {
     filePath = "/index.html";
   }
 
-  let requestedFile = __dirname + "/appleClone-with-HTML-CSS/" + filePath;
-
+  let requestedFile =
+    __dirname + "/puppy lovers design bootstrap responsive/" + filePath;
 
   fs.readFile(requestedFile, (err, content) => {
     if (err) {
       const notFoundFile =
-        __dirname + "/appleClone-with-HTML-CSS/notFound.html";
+        __dirname + "/puppy lovers design bootstrap responsive/notFound.html";
       fs.readFile(notFoundFile, (err, notFoundContent) => {
         if (err) {
           res.writeHead(404, { "Content-Type": "text/plain" });
